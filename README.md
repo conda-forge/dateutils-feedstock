@@ -11,6 +11,18 @@ Summary: Various utilities for working with date and datetime objects
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/dateutils-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/dateutils-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/dateutils-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/dateutils-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/dateutils-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/dateutils-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/dateutils/badges/version.svg)](https://anaconda.org/conda-forge/dateutils)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/dateutils/badges/downloads.svg)](https://anaconda.org/conda-forge/dateutils)
+
 Installing dateutils
 ====================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `dateutils` available on your plat
 ```
 conda search dateutils --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/dateutils-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/dateutils-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/dateutils-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/dateutils-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/dateutils-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/dateutils-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/dateutils/badges/version.svg)](https://anaconda.org/conda-forge/dateutils)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/dateutils/badges/downloads.svg)](https://anaconda.org/conda-forge/dateutils)
 
 
 Updating dateutils-feedstock
