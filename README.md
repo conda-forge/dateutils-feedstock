@@ -1,7 +1,7 @@
 About dateutils
 ===============
 
-Home: https://pypi.python.org/pypi/dateutils/
+Home: https://pypi.org/project/dateutils
 
 Package license: BSD
 
@@ -14,9 +14,8 @@ Summary: Various utilities for working with date and datetime objects
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/dateutils-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/dateutils-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/dateutils-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/dateutils-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/dateutils-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/dateutils-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/dateutils-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/dateutils-feedstock)
 
 Current release info
 ====================
