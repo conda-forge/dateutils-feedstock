@@ -11,17 +11,18 @@ source:
 build:
   number: 0
   noarch: python
-  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
+  script: {{ PYTHON }} -m pip install . -vv
   entry_points:
     - dateadd = dateutils.dateadd:main
     - datediff = dateutils.datediff:main
 
 requirements:
   build:
-    - python <3
+    - python
     - pip
   run:
-    - python <3
+    - python
+    - argparse
     - python-dateutil
     - pytz
 
@@ -29,12 +30,15 @@ test:
   imports:
     - dateutils
   commands:
+    - pip check
     - dateadd --help
     - datediff --help
+  requires:
+    - pip
 
 about:
   home: https://pypi.org/project/dateutils
-  license: BSD
+  license: 0BSD
   license_file: LICENSE
   summary: Various utilities for working with date and datetime objects
 
