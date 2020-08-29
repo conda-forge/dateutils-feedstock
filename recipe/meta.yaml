@@ -1,4 +1,4 @@
-{% set version = "0.6.8" %}
+{% set version = "0.6.10" %}
 
 package:
   name: dateutils
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/d/dateutils/dateutils-{{ version }}.tar.gz
-  sha256: 15e564d9cd34e4260cf96625a3249c938c3aada2e5eaddf8218dd3fbc8dbdba4
+  sha256: 860b3e40261085f56928f1454ee4d221856b56aa421c69a7df12067596ec0b26
 
 build:
   number: 0
@@ -35,6 +35,7 @@ test:
 about:
   home: https://pypi.org/project/dateutils
   license: BSD
+  license_file: LICENSE
   summary: Various utilities for working with date and datetime objects
 
 extra:
