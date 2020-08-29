@@ -18,11 +18,11 @@ build:
 
 requirements:
   build:
-    - python
+    - python >=3
     - pip
   run:
-    - python
-    - argparse
+    - python >=3
+    # - argparse only for py<27
     - python-dateutil
     - pytz
 
