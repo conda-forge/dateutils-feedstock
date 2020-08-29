@@ -5,7 +5,7 @@ Home: https://pypi.org/project/dateutils
 
 Package license: BSD
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Various utilities for working with date and datetime objects
 
