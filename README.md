@@ -3,7 +3,7 @@ About dateutils
 
 Home: https://pypi.org/project/dateutils
 
-Package license: BSD
+Package license: 0BSD
 
 Feedstock license: BSD-3-Clause
 
