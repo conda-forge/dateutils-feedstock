@@ -1,4 +1,4 @@
-{% set version = "0.6.10" %}
+{% set version = "0.6.11" %}
 
 package:
   name: dateutils
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/d/dateutils/dateutils-{{ version }}.tar.gz
-  sha256: 860b3e40261085f56928f1454ee4d221856b56aa421c69a7df12067596ec0b26
+  sha256: 9d4093a1c888d8ce85940f339bd6f9d26ccddb9785673620e52b369c8dd4213a
 
 build:
   number: 0
