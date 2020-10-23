@@ -5,11 +5,9 @@ Home: https://pypi.org/project/dateutils
 
 Package license: 0BSD
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dateutils-feedstock/blob/master/LICENSE.txt)
 
 Summary: Various utilities for working with date and datetime objects
-
-
 
 Current build status
 ====================
