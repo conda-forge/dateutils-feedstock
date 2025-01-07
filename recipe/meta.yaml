@@ -11,7 +11,7 @@ source:
 build:
   number: 1
   noarch: python
-  script: {{ PYTHON }} -m pip install . -vv
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   entry_points:
     - dateadd = dateutils.dateadd:main
     - datediff = dateutils.datediff:main
@@ -19,6 +19,7 @@ build:
 requirements:
   host:
     - python {{ python_min }}
+    - setuptools
     - pip
   run:
     - python >={{ python_min }}
